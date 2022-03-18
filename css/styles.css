@@ -108,12 +108,13 @@ body{
 	color: rgb(80,80,80);
 }
 .get-recipe-btn:hover{
-	border: 3px solid rgb(146,16,38);
+	background:  rgb(146,16,38);
+	border: 3px solid  rgb(146,16,38);
 
 }
 .get-recipe-btn:hover .get-recipe-span{
-	color: rgb(146,16,38);
-	text-shadow: 0 0 .9px rgb(146,16,38), 0 0 .9px rgb(146,16,38);	
+	color: rgb(255,255,255);
+	text-shadow: 0 0 .20px  rgb(255,255,255), 0 0 .20px  rgb(255,255,255);
 
 }
 
