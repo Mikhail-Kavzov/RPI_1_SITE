@@ -53,7 +53,7 @@ body{
 	background-color: gray ;
 }
 .ellipse:checked{
-	background-color: black;
+	background-color: rgb(85,85,85);
 }
 
 /*-icons comments-*/
