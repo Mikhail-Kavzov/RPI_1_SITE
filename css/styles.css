@@ -332,11 +332,11 @@ body{
     margin-bottom: 140px;
     position:relative;
 }
-.img_block-vadim {
+.img_block-vadim{
     width: 520px;
-    height: 100%;
-    overflow: hidden;
-    z-index: 1;
+    height: 100%;    
+    overflow:hidden;
+    z-index:1;
 }
 
 
@@ -361,7 +361,7 @@ transition:1.5s;
 }
 
 
-.img_icon
+.img_icon_V
 {
 background-size: contain;
     color:white;
