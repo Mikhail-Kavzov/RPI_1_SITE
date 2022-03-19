@@ -332,7 +332,12 @@ body{
     margin-bottom: 140px;
     position:relative;
 }
-
+.img_block-vadim {
+    width: 520px;
+    height: 100%;
+    overflow: hidden;
+    z-index: 1;
+}
 
 
 .bananas_img{
@@ -366,12 +371,7 @@ text-align:center;
    font-size:30px;
 }
 
-.img_block-vadim {
-    width: 520px;
-    height: 100%;
-    overflow: hidden;
-    z-index: 1;
-}
+
 .img_block-vadim:hover .bananas_img
 {  
    transform:scale(1.5);
