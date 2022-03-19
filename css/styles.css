@@ -16,7 +16,7 @@ footer, header,nav, section {
 *,
 *:before,
 *:after {
-  box-sizing: border-box;
+	box-sizing: border-box;
   -webkit-box-sizing: border-box;
 }
 a{  
@@ -111,11 +111,13 @@ body{
 .get-recipe-btn:hover{
 	background:  rgb(146,16,38);
 	border: 3px solid  rgb(146,16,38);
+	
+
 
 }
 .get-recipe-btn:hover .get-recipe-span{
 	color: rgb(255,255,255);
-	text-shadow: 0 0 .20px  rgb(255,255,255), 0 0 .20px  rgb(255,255,255);
+		text-shadow: 0 0 .20px  rgb(255,255,255), 0 0 .20px  rgb(255,255,255);
 
 }
 
@@ -910,7 +912,8 @@ height:65px;
 	color: rgb(120,120,120);
 }
 .recipe-view-more{
-	margin-left:150px;
+	margin-left: 150px;
+	
 }
 .recipe-list-text-context{
 	font-family: 'Josefin Sans', sans-serif;
@@ -1122,12 +1125,16 @@ width:31px;
 
 .data:hover
 {
+ cursor:pointer;
  border-color:rgb(49,182,237);
  border-width: 1px;
  border-style:solid;
  width:31px;
 
 }
+
+
+
 .first_row, .second_row, .third_row, .forth_row, .fifth_row
 {
 height:38px;
@@ -1998,4 +2005,3 @@ height:38px;
     letter-spacing: 5px;
     text-align: right;
 }
-
