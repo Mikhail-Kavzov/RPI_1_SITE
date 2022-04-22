@@ -31,7 +31,7 @@ body{
 /*--General--*/
 .wrapper{
 	width: 1120px;
-	margin: 0 200px;
+	margin: 0 auto;
 }
 .ellipse-group{
 	display: flex;
@@ -174,7 +174,7 @@ body{
 .header-nav li{
 	display: inline-block;
 	margin-right: 25px;
-	margin-left: -4px;
+
 }
 .header-nav li:last-child{
 	margin-right: 0;
@@ -245,6 +245,7 @@ body{
 
 }
 .hero-bananas{
+    display:block;
 	font-family: 'Playfair Display', sans-serif;
 	font-weight: 400;
 	font-size: 24px;
@@ -259,6 +260,7 @@ body{
 	font-family: 'Josefin Sans', sans-serif;
 	font-weight: 300;
 	margin-bottom: 25px;
+    width: 335px;
 
 }
 #hero-logo{
@@ -425,12 +427,22 @@ line-height:19px;
 font-weight: 300;
 
 }
+.ibt_1{
+    width: 350px;
+}
+.ibt_2{
+    width: 475px;
+}
+.ibt_3{
+    width: 500px;
+}
+
  
 .new_title_Directions
 {
+    display: block;
 font-family: 'Playfair Display', serif;
-padding-top:25px;
-padding-bottom:25px;
+margin: 25px 0;
 font-size:18px;
 font-weight: 700;
 
@@ -530,23 +542,25 @@ border: none;
 
 
 .Text_404_Bold{
+display:block;
 font-family: 'Josefin Sans',sans-serif;
 font-size: 34px;
 font-weight:900;
-margin-top: 90px;
-margin-bottom:5px;
-padding-left:20px;
+margin: 90px 0 5px 20px;
 }
 .Text_404_Grey_1{
 font-family: 'Playfair Display',sans-serif;
 font-size: 16px;
 font-weight: 900;
 color: rgb(169,169,169);
-padding-left:20px;
+margin-left:130px;
+width:130px;
+text-align:center;
 
 }
 
 .Text_404_Smile{
+ display: block;
 font-family: 'Playfair Display',sans-serif;
 font-size: 33px;
 font-weight: 400;
@@ -578,8 +592,9 @@ padding-bottom: 5px;
 }
 /*--karen--*/
 .Block_karen
-{
-  width:520px;
+{ 
+    padding: 20px 40px 0 30px;
+
   height: 520px;
 
   background-color:white;
@@ -596,8 +611,8 @@ padding-bottom: 5px;
 
 .line_h_karen
 {
-  margin-left:35px; 
-  margin-right:40px;
+
+  margin: 8px 40px 0 35px;
   height: 2px;
   border: none;
   background: rgb(221,221,221);
@@ -606,7 +621,6 @@ padding-bottom: 5px;
 {
 display:flex;
 margin-top:25px;
-  height:480px;
   width:485px;
 }
 
@@ -614,7 +628,7 @@ margin-top:25px;
 {
   display:flex;
   margin-left:10px;
-  height:100%;
+
   width:170px;
   justify-content:center;
 }
@@ -628,12 +642,13 @@ margin-top:25px;
 
 .block_karen_text
 {
-height:330px;
+
 width:295px;  
 }
 
 .block_karen_text_title
-{
+{   
+  display:block;
   margin-top:15px;
   font-size:24px;
   font-family:'Josefin Sans', sans-serif;
@@ -641,7 +656,7 @@ width:295px;
 }
 
 .block_karen_text_country
-{
+{ display:block;
   margin-top:5px;
   font-size:16px;
   font-family:'Josefin Sans', sans-serif;
@@ -681,13 +696,15 @@ color: rgb(146,16,38);
 .line_h_karen2
 {
   margin-top:10px;
+  
   height: 2px;
   border: none;
   background: rgb(221,221,221);
 }
 
 .block_karen_text_title_about_lemon
-{
+{  
+  display:block;
   margin-top:35px;
   font-style:italic;
   font-size:20px;
@@ -788,8 +805,11 @@ height:65px;
 	margin-top: 10px;
 	
 }
-
+.recipe-bloger-text-lite{
+    display:block;
+}
 .recipe-bloger-text-bold{
+    display:block;
 	font-weight: 700;	
 }
 
@@ -827,6 +847,7 @@ height:65px;
 	border-bottom: 2px solid white;
 }
 .vanilla-frozen-text{
+    display:block;
 	font-size: 22px;
 	font-weight: bold;
 	margin-bottom: 20px;
@@ -834,16 +855,18 @@ height:65px;
 
 }
 .mix-coffee-text{
-	line-height: 1.2;
+    display: block;
 	font-size: 16px;
 	font-weight: 400;
 	font-style: italic;
 	color: rgb(57,57,57);
-	margin-bottom: 15px;
+	margin-bottom: 5px;
 	word-spacing: -2px;
+    
 }
 .popular-end{
 	display: flex;
+    margin-top:0px;
 	justify-content: space-between;
 	align-items: center;
 }
@@ -900,6 +923,7 @@ height:65px;
 
 }
 .recipe-list-text-header{
+    display:block;
 	font-family: 'Josefin-Sans',sans-serif;
 	font-size: 12px;
 	font-weight: 700;
@@ -916,6 +940,7 @@ height:65px;
 	
 }
 .recipe-list-text-context{
+    width:190px;
 	font-family: 'Josefin Sans', sans-serif;
 	font-size: 16px;
 	font-weight: 600;
@@ -938,6 +963,7 @@ height:65px;
   
   height:160px;
   background-color:white;
+  padding: 20px 15px 0 15px;
   margin-bottom: 45px;
 }
 
@@ -951,17 +977,10 @@ height:65px;
  
 }
 
-.line_h{
- font-size:0px;
-  padding-top:5px;
-  padding-left:15px;
-  padding-right:20px;  
-}
 
 
 .line1
 {
-padding-left:20px;
 padding-top:13px;
 width:250px;
 
@@ -969,7 +988,6 @@ width:250px;
 
 .line2
 {
-padding-left:20px;
 padding-top:20px;
 width:260px;
 
@@ -977,7 +995,6 @@ width:260px;
 
 .line3
 {
-padding-left:20px;
 padding-top:20px;
 width:200px;
 }
@@ -988,6 +1005,7 @@ width:200px;
   font-size:12px;
   color: rgb(142,142,142);
   text-align-last:justify;
+
 }
 
 .tag_links
@@ -1029,7 +1047,7 @@ color:rgb(55,55,150);
 {
   width:290px;
   height:370px;
-  
+  padding: 25px 15px 0 15px;
   background:white;
 }
 .title
@@ -1042,21 +1060,11 @@ color:rgb(55,55,150);
  
 }
 
-.line_h{
-  padding-top:5px;
-  padding-left:15px;
-  padding-right:20px;
-  
-}
 .month_name_with_angels
 {
     display: flex;
     justify-content: space-between;
-   
-    padding-top: 20px;
-padding-bottom:15px;
-    padding-left:30px;
-    padding-right:40px;
+    padding: 20px 15px 15px 15px;
 }
  .month_name_font
 {
@@ -1085,8 +1093,6 @@ padding-bottom:15px;
     border: none;
     clear: both;
 width:100%;
-padding-left:25px;
-padding-right:35px;
 }
 
 
@@ -1150,6 +1156,7 @@ height:38px;
 }
 
 .Target_Title{
+    display:block;
     font-family: 'Playfair Display', serif;
     font-size: 20px; 
     color: rgb(5,85,85);
@@ -1170,6 +1177,7 @@ height:38px;
 }
 
 .Procent{
+    display:block;
     font-family: 'Josefin Sans', sans-serif;
     font-size: 22px;
     font-weight: 300;
@@ -1193,6 +1201,7 @@ height:38px;
     background-repeat: no-repeat;
 }
 .Target_Text_Header{
+    display:block;
     font-size: 18px;
     color: black;
     margin-bottom: 5px;
@@ -1225,7 +1234,14 @@ height:38px;
     width: 250px;
 }
 
+#targ_1{
+    width:130px;
+}
+#targ_2{
+    width:145px;
+}
 .Timeline_Title{
+    display:block;
     font-family: 'Playfair Display', serif;
     font-size: 20px; 
     font-weight: 900;
@@ -1349,7 +1365,7 @@ height:38px;
 }
 .Block_Sign_Body_Font,
 .Block_Login_Body_Font
-{
+{   display:block;
     font-family: 'Josefin Sans', sans-serif;
     font-weight: 300;
     font-size: 16px;
@@ -1537,8 +1553,8 @@ height:38px;
     color:rgb(154, 154, 154);
 }
 .Text_Agree
-{
-    margin-bottom: 3px;
+{   display:block;
+    margin-bottom: 5px;
 }
 .Text_Login
 {
@@ -1727,6 +1743,7 @@ height:38px;
 }
 
 .bloger-text-lite {
+    display:block;
     font-family: 'Josefin Sans', sans-serif;
     font-size: 16px;
     font-weight: 300;
@@ -1774,14 +1791,14 @@ height:38px;
 }
 
 .Date_Text
-{
+{   display:block;
     margin-top: 5px;
     color:rgb(98,148, 148);
     font-size: 12px;
     font-weight: 700;
 }
 .Text_Likes
-{
+{   display:block;
     margin-top: 5px;
     color:rgb(88, 88, 88);
     font-family: 'Josefin Sans', sans-serif;
@@ -1857,7 +1874,7 @@ height:38px;
 }
 
 .Comment_Text_Light
-{
+{   display:block;
     font-family: 'Josefin Sans', sans-serif;
     font-size: 16px;
     margin-top: 15px;
@@ -1992,7 +2009,7 @@ height:38px;
 	margin-top: 10px;
 }
 .Footer_Copyright
-{
+{   display:block;
     font-family: 'Josefin Sans',sans-serif;
 	color: rgb(147,147,147);
 	font-size: 12px;
